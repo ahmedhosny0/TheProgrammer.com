@@ -13,7 +13,7 @@
      
             <body>
                 <div class="container">
-                                      <?php include('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php'); ?>
+                                      <?php include('includes/header.php'); ?>
 
                                    
                 <!-- first div for the heading the main box-->
@@ -124,6 +124,6 @@
             </div>
                 </div>
             </body>
-        </head>
+       
        
     </html>
