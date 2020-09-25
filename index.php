@@ -1,3 +1,7 @@
+<?php
+                    include('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php');
+                    ?>
+                
 <!DOCTYPE html>
     <html lang="ar">
         <head>
@@ -15,7 +19,6 @@
                 <div class="container">
                 <!-- first div for the heading the main box-->
                     
-                
             <div class="content"> <p class="ch">أخر التدوينات</p> <!--content heading-->
                <div class="leftcol">
                
