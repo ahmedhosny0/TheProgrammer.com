@@ -14,9 +14,7 @@
             
                 <div class="container">
                 <!-- first div for the heading the main box-->
-                    <?php
-                    include('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php');
-                    ?>
+                    
                 
             <div class="content"> <p class="ch">أخر التدوينات</p> <!--content heading-->
                <div class="leftcol">
