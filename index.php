@@ -13,7 +13,6 @@
      
             <body>
                 <div class="container">
-                                      <?php include('includes/header.php'); ?>
 
                                    
                 <!-- first div for the heading the main box-->
