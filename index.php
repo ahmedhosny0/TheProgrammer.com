@@ -9,7 +9,7 @@
             <link rel="stylesheet" href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/st.css">
             <link rel="stylesheet" href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/css/all.min.css"> <!-- for using social media icons and other icons-->
  <!-- page background-->
-           
+        </head>
      
             <body>
                 <div class="container">
