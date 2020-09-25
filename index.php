@@ -12,7 +12,7 @@
            
         </head>
             <body>
-            <?include ('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php') ?>
+            <?php include ('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php') ?>
                 <div class="container">
                 <!-- first div for the heading the main box-->
             <div class="content"> <p class="ch">أخر التدوينات</p> <!--content heading-->
