@@ -15,7 +15,7 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1){  
-include("../main_page/index.html");        }  
+include("https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/index.html");        }  
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>";  
         }     
