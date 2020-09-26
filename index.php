@@ -1,6 +1,7 @@
 
 <html>  
 <head>  
+    <meta charset="utf-8">
     <title>تسجيل الدخول للموقع</title>   
     <link rel = "stylesheet" type = "text/css" href = "https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/style.css">   
 </head>  
