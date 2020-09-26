@@ -1,4 +1,18 @@
-
+<!DOCTYPE html>
+    <html lang="ar">
+        <head>
+           <title>الرئيسيه - الباشمبرمج</title>
+            <meta charset="utf-8">
+            <meta name="description" content="Hi, I'm ahmed hosny ahmed khairy 'Web developer' and My channel the programmer can help you to protect your privacy. ">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/bootstrap.min.css"><!-- for using container-->
+            <link rel="stylesheet" href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/st.css">
+            <link rel="stylesheet" href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/css/all.min.css"> <!-- for using social media icons and other icons-->
+ <!-- page background-->
+            <style>
+            </style>
+             </head>
+            <body>
 <div class="heading">
                     <!-- second div for the top titles-->
                     <div class="s1">
@@ -72,4 +86,5 @@
                     </ul>
                   </div><!-- end of the div num4-->
                 </div><!-- end of the div num1-->
-                
+	    </body>
+</html>
