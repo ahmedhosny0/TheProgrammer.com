@@ -2,12 +2,12 @@
 <html>  
 <head>  
     <title>تسجيل الدخول للموقع</title>   
-    <link rel = "stylesheet" type = "text/css" href = "../css/style.css">   
+    <link rel = "stylesheet" type = "text/css" href = "https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/style.css">   
 </head>  
 <body>  
     <div id= "frm">  
         <h1>Login</h1>  
-        <form name="f1" action = "https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/login/authentication.php" onsubmit = "return validation()" method = "POST">  
+        <form name="f1" action = "https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/authentication.php" onsubmit = "return validation()" method = "POST">  
             <ul id="userandpass">
                   <li id="Input"style="border-bottom:none;">
                    <label>UserName: </label><input type = "text"  name  = "user" id="user" > 
