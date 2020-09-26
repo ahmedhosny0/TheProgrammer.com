@@ -15,7 +15,6 @@
             <body>
             
                 <div class="container">
-                  <?php include('https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/includes/header.php'); ?>
                 <!-- first div for the heading the main box-->
                     
             <div class="content"> <p class="ch">أخر التدوينات</p> <!--content heading-->
