@@ -1,7 +1,7 @@
 body{
     font-family:sans-serif;
     font-size: 13px;
-background-image: url(../img/background.png); /* when put it in index add ' '*/
+background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/background.png); /* when put it in index add ' '*/
     background-attachment: fixed;
     }
 
@@ -23,7 +23,7 @@ background-image: url(../img/background.png); /* when put it in index add ' '*/
     border-bottom:solid;
 	border-top-color:#FC6C6C;
     border-bottom-color:#FC6C6C; 
-    background-image:url(../img/content.png);
+    background-image:url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
    /* background: #F9F7F7;*/
 }
 .s1
@@ -61,7 +61,7 @@ background-image: url(../img/background.png); /* when put it in index add ' '*/
 {   border:solid 1px;
     height: 1650px;
     border-color:#FFFFFF;
-    background-image:url(../img/content.jpg);
+    background-image:url(https://ahmed794387207.files.wordpress.com/2020/09/content.jpg);
     /*background: #000000;*/
 }/* font weight for bold*/
 .ch
