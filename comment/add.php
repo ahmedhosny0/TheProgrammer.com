@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title> Login Form in HTML5 and CSS3</title>
-	<link rel="stylesheet" a href="css\style.css">
-	<link rel="stylesheet" a href="css\font-awesome.min.css">
+	<link rel="stylesheet" a href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/style.css">
+	<link rel="stylesheet" a href="https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/css/font-awesome.min.css">
 </head>
 <body>
     <?php 
