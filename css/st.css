@@ -132,7 +132,7 @@ ul li {
   bottom: 0;
 }
 @font-face {
-  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/AraJozoor-Regular.ttf);
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Amiri-Bold.ttf);
   font-family: joz;
 }
 @font-face {
@@ -458,7 +458,6 @@ ul li {
   padding: 10px;
   text-indent: 50px;
 }
-
 @media only screen and (max-width: 1345px) {
   .container {
     margin-top: 4%;
@@ -466,8 +465,9 @@ ul li {
   }
 }
 @media only screen and (max-width: 1060px) {
+  .content{width:100%;height:auto}
   .rightcol {
-    width: 60%;
+    width: 61%;
   }
   .vn1 {
     width: 95%;
@@ -475,6 +475,7 @@ ul li {
   .ivn1 {
     width: 47%;
   }
+  .vtext{width:50%;}
   .container {
     margin-top: 4%;
     width: 92%;
@@ -485,6 +486,7 @@ ul li {
   .footer {
     min-width: 400px;
   }
+  .body{height:auto;}
 }
 @media only screen and (max-width: 990px) {
   .rightcol {
@@ -686,7 +688,7 @@ ul li {
   }
   .footer {
     position: relative;
-    min-height: 610px;
+    height: 1000px;
     overflow: none;
     width: 100%;
   }
@@ -864,14 +866,16 @@ ul li {
       width: 90%;
     }
     .footer {
-      position: relative;
-      min-height: 900px;
+
+      height: auto;
       overflow: none;
-      width: 100%;
+      width: auto;
     }
+    .ti{height:100%;}
     .copyright {
       margin-top: 40%;
-      width:98%;
+      height:550px;
+      width:96%;
     }
     .container {
       margin: 0;float:none;
@@ -937,7 +941,7 @@ ul li {
   }
   .copyright {
     margin-top: 40%;
-    width:98%;
+    width:96%;
   }
   .container {
     margin: 0px;
@@ -998,7 +1002,7 @@ ul li {
   }
   .copyright {
     margin-top: 40%;
-    width:98%;
+    width:92%;
   }
   .container {
     margin: 0%;float:none;
@@ -1010,4 +1014,3 @@ ul li {
     min-width:360px;
     height: 2000px;
   }
-}
