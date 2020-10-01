@@ -132,11 +132,11 @@ ul li {
   bottom: 0;
 }
 @font-face {
-  src: url(../font/AraJozoor-Regular.ttf);
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/AraJozoor-Regular.ttf);
   font-family: joz;
 }
 @font-face {
-  src: url(../font/Lalezar-Regular.ttf);
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Lalezar-Regular.ttf);
   font-family: laz;
 }
 
