@@ -1,13 +1,13 @@
 body {
   font-family: sans-serif;
   font-size: 13px;
-  background-image: url(../img/background.png); /* when put it in index add ' '*/
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/background.png); /* when put it in index add ' '*/
   background-attachment: fixed;
 }
 
 .container {
-  margin-top: 4%;
-  width: 85%;
+  margin-top: 20px;
+  width: 1045px;
 }
 .vn1 a {
   text-decoration: none;
@@ -21,7 +21,7 @@ body {
   border-bottom: solid;
   border-top-color: #fc6c6c;
   border-bottom-color: #fc6c6c;
-  background-image: url(../img/content.png);
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
   /* background: #F9F7F7;*/
 }
 .s1 {
@@ -47,27 +47,17 @@ body {
 .l {
   display: inline-block;
 }
-@font-face {
-  src: url(../font/AraJozoor-Regular.ttf);
-  font-family: joz;
-}
-@font-face {
-  src: url(../font/Lalezar-Regular.ttf);
-  font-family: laz;
-}
 /* for the name programmer*/
 .name {
   text-align: center;
   color: red;
-  font-size: 77px;
-  font-family: laz;
-  font-style: italic;
+  font-size: 72px;
 }
 .content {
   border: solid 1px;
-  min-height: 1500px;
+  height: 1650px;
   border-color: #ffffff;
-  background-image: url(../img/content.jpg);
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.jpg);
   /*background: #000000;*/
 } /* font weight for bold*/
 .ch {
@@ -81,17 +71,17 @@ body {
 }
 .rightcol {
   border: ridge 1px;
-  width: 61%;
+  width: 620px;
   margin-right: 20px;
   margin-top: 20px;
   float: right;
 } /* i use border ridge ,1px make height حتي لا يلتصق الحد بالصوره*/
 .vn1 {
-  width: 93%;
+  width: auto;
   text-align: left;
   margin-right: 20px;
   margin-left: 20px;
-  height: 190%;
+  height: 240px;
   border-bottom: ridge 1px;
 }
 /* title of the video*/
@@ -99,7 +89,6 @@ body {
   text-align: right;
   font-weight: bold;
   color: black;
-  width: 93%;
   text-shadow: 2px 2px red; /*make shadow for title*/
   font-size: 20px;
   transition: all 0.4s ease; /* disappear slowly*/
@@ -142,6 +131,15 @@ ul li {
   position: sticky;
   bottom: 0;
 }
+@font-face {
+  src: url(../font/AraJozoor-Regular.ttf);
+  font-family: joz;
+}
+@font-face {
+  src: url(../font/Lalezar-Regular.ttf);
+  font-family: laz;
+}
+
 /* for put icon inline block with other option*/
 /* change border of all icon box.*/
 /* ul instead of div*/
