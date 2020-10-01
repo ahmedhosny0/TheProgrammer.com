@@ -24,6 +24,14 @@ body {
   background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
   /* background: #F9F7F7;*/
 }
+@font-face {
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Amiri-Bold.ttf);
+  font-family: joz;
+}
+@font-face {
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Lalezar-Regular.ttf);
+  font-family: laz;
+}
 .s1 {
   /*for the first row*/
   /*الهوامش من الجهات الاربعه*/
@@ -133,14 +141,7 @@ ul li {
   position: sticky;
   bottom: 0;
 }
-@font-face {
-  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Amiri-Bold.ttf);
-  font-family: joz;
-}
-@font-face {
-  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Lalezar-Regular.ttf);
-  font-family: laz;
-}
+
 
 /* for put icon inline block with other option*/
 /* change border of all icon box.*/
