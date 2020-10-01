@@ -51,7 +51,9 @@ body {
 .name {
   text-align: center;
   color: red;
-  font-size: 72px;
+  font-size: 77px;
+  font-family: laz;
+  font-style: italic;
 }
 .content {
   border: solid 1px;
