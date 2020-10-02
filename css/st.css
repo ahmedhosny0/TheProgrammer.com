@@ -839,6 +839,7 @@ ul li {
       float: none;
       height: auto;
       margin:0;
+      overflow: none;
     }
     .ch {
       float: none;
@@ -855,12 +856,12 @@ ul li {
     .vn1 {
       float: none;
   
-      width: 97%;
+      width: 98%;
       text-align: center;
     }
     .ivn1 {
       float: right;
-      width: 99%;
+      width: 98%;
     }
     .vtext {
       float: left;
@@ -887,11 +888,10 @@ ul li {
     body {
       margin: 0;padding: 0;
       float:none;
-      max-width:1000px;
-      height: 2000px;overflow: none;
+      height: 2000px;  
+
     }
 }
-
 @media only screen and (max-width: 400px) {
   .heading {
     width: 100%;
