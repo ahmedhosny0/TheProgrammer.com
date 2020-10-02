@@ -877,7 +877,7 @@ ul li {
     .ti{height:100%;}
     .copyright {
       margin-top: 40%;
-      height:550px;
+      min-height:300px;
       width:96%;
     }
     .container {
@@ -999,13 +999,14 @@ ul li {
   }
   .footer {
     position: relative;
-    min-height: 900px;
+    min-height: 500px;
     overflow: none;
     width: 100%;
   }
   .copyright {
     margin-top: 40%;
     width:92%;
+    
   }
   .container {
     margin: 0%;float:none;
@@ -1017,3 +1018,4 @@ ul li {
     min-width:360px;
     height: 2000px;
   }
+}
