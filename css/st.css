@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   font-size: 13px;
-  background-image: url(../img/background.png); /* when put it in index add ' '*/
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/background.png); /* when put it in index add ' '*/
   background-attachment: fixed;
 }
 
@@ -21,7 +21,7 @@ body {
   border-bottom: solid;
   border-top-color: #fc6c6c;
   border-bottom-color: #fc6c6c;
-  background-image: url(../img/content.png);
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
   /* background: #F9F7F7;*/
 }
 .s1 {
@@ -48,11 +48,11 @@ body {
   display: inline-block;
 }
 @font-face {
-  src: url(../font/AraJozoor-Regular.ttf);
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Amiri-Bold.ttf);
   font-family: joz;
 }
 @font-face {
-  src: url(../font/Lalezar-Regular.ttf);
+  src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Lalezar-Regular.ttf);
   font-family: laz;
 }
 /* for the name programmer*/
@@ -67,7 +67,7 @@ body {
   border: solid 1px;
   min-height: 1500px;
   border-color: #ffffff;
-  background-image: url(../img/content.jpg);
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.jpg);
   /*background: #000000;*/
 } /* font weight for bold*/
 .ch {
@@ -152,7 +152,7 @@ ul li {
   /* background-color: #92d153;*/
   /* scrolling*/
   border: ridge 1px;
-  background-image: url(../img/content.jpg);
+  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.jpg);
 }
 .follow_text1 .fab {
   font-size: 80px;
@@ -446,10 +446,7 @@ ul li {
   padding: 5px;
   text-shadow: 2px 1px black;
 }
-@font-face {
-  src: url(../font/Amiri-Bold.ttf);
-  font-family: amir;
-}
+
 #parg {
   direction: rtl;
   font-family: amir;
