@@ -1002,7 +1002,7 @@ ul li {
     float: left;
     margin: 0;
     width: 100%;
-    top: 300%;
+    top: 320%;
     position: absolute;
     height: 800px;
   }
@@ -1097,6 +1097,11 @@ ul li {
     width: 100%;
     height: 2000px;
   }
+}
+@media only screen and (max-width: 375px) {
+.leftcol{top:320%}
+  .vn1{height:300px}
+  .content{height:3120px}
 }
 @media only screen and (max-width: 360px) {
   .leftcol {
