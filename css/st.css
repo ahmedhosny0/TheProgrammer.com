@@ -568,6 +568,7 @@ ul li {
     top: 150%;
     position: absolute;
     height: 100%;
+    display: none;
   }
   .followme p {
     width: 40%;
@@ -605,7 +606,7 @@ ul li {
 
   .content {
     width: 100%;
-    min-height: 2690px;
+    height:100%;
   }
 
   .rightcol {
@@ -674,7 +675,7 @@ ul li {
     margin-right: 35%;
   }
   .box_pagecover1{width:60%;height:40%;}
-  .content{height: 2200px;}
+  .content{height: 100%;}
   .footer {
     position: relative;
     height: 70%;
@@ -702,7 +703,7 @@ ul li {
     height: 40%;
   }
   .content {
-    height: 250px;
+    height: 100%;
   }
   #x {
     float: none;
@@ -735,7 +736,7 @@ ul li {
     width: 100%;
   }
   .copyright {
-    margin-top: 40%;
+    margin-top: 46%;
   }
 
   .heading {
@@ -769,12 +770,19 @@ ul li {
     height: auto;
   }
 }
+@media only screen and (max-width: 770px) {
+.leftcol{        margin-top: 1200px;
+
+}
+.content {
+  height: 100%;
+}
+}
 @media only screen and (max-width: 700px) {
   .leftcol {
     float: left;
     margin: 0;
     width: 100%;
-    top: 150%;
     position: absolute;
     height: 800px;
   }
@@ -802,7 +810,7 @@ ul li {
   }
   .content {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .heading {
     width: 100%;
@@ -820,6 +828,7 @@ ul li {
     float: none;
 
     width: 99%;
+    height:100%;
     text-align: center;
   }
   .footer {
@@ -860,7 +869,7 @@ ul li {
     text-align: center;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 602px) {
   .heading {
     width: 100%;
   }
@@ -881,7 +890,7 @@ ul li {
     text-align: center;
   }
   .leftcol {
-    top: 175%;
+    margin-top: 1500px;
   }
   .box_pagecover1 {
     height: 40%;
@@ -939,10 +948,9 @@ ul li {
   .content {
     width: 100%;
     float: none;
-    height: auto;
+    height: 100%;
     margin: 0;
     overflow: none;
-    height: 2980px;
   }
   .ch {
     float: none;
@@ -999,18 +1007,27 @@ height:340px;
   }
 }
 @media only screen and (max-width: 470px) {
-.leftcol{top:220%;}
 .vn1{height: 360px;}
-.content{height:3100px}
-.footer{height:150%;margin:0;}
+.footer{height:180%;margin:0;}
 .copyright {
   margin-top: 100%;
   height:100px;
   width: 100%;
 }
 }
+
+@media only screen and (max-width: 414px) {
+
+  .vn1{width:95%;}
+
+.ivn1{width:100%;}
+.footer{height:100%}
+.copyright{width:97%;height:300px;
+margin-top: 60%;}
 @media only screen and (max-width: 411px) {
-.vn1{height:300px;}
+  .vn1{height:380px;}
+  }
+  
 }
 @media only screen and (max-width: 400px) {
   .leftcol {
@@ -1052,7 +1069,6 @@ height:340px;
   }
   .heading {
     width: 100%;
-    height: auto;
     float: none;
     margin: 0;
   }
@@ -1060,8 +1076,8 @@ height:340px;
   .content {
     width: 100%;
     float: none;
-    height: 3050px;
     margin: 0;
+  height: 100%;
   }
   .ch {
     float: none;
@@ -1079,7 +1095,6 @@ height:340px;
   }
   .vn1 {
     float: none;
-
     width: 97%;
     text-align: center;
   }
@@ -1115,18 +1130,14 @@ height:340px;
   }
 }
 @media only screen and (max-width: 375px) {
-.leftcol{top:225%}
   .vn1{height:300px}
-  .content{height:3120px}
+  .content{height:100%;}
 }
 @media only screen and (max-width: 360px) {
   .recent_topics p {
     width: 80%;
   }
-  .leftcol {
-    top: 245%;
-    width: 100%;
-  }
+  
   .box_pagecover1 {
     width: 100%;
   }
@@ -1142,10 +1153,8 @@ height:340px;
     padding: 30px;
   }
   .content {
-    width: 100%;
-    float: none;
-    height: 3400px;
-    margin: 0;
+    
+    height:100%;
   }
   .tvn1 {
     width: 50%;
@@ -1177,8 +1186,7 @@ height:340px;
 
     width: 97%;
     text-align: center;
-    margin-bottom: 25%;
-    height: 320px;
+    height: 100%;
   }
   .ivn1 {
     float: right;
@@ -1192,7 +1200,7 @@ height:340px;
     width: 85%;
   }
   .box_pagecover2 {
-    width: 100%;
+    width: 83%;
     float: none;
   }
 
@@ -1209,7 +1217,7 @@ height:340px;
   }
   .copyright {
     margin-top: 100%;
-    width: 80%;
+    width: 85%;
     height: 100px;
   }
   .container {
@@ -1226,12 +1234,8 @@ height:340px;
   }
 }
 @media only screen and (max-width: 320px) {
-  .leftcol {
-    top: 260%;
-  }
-  .content {
-    height: 3700px;
-  }
+  
+  
   #x {
     margin-left: 20%;
     margin-right: 23%;
@@ -1247,18 +1251,17 @@ height:340px;
     margin-top: 40%;
     height: 250px;
   }
-  .box_pagecover2 {
-    width: 92%;
-  }
+ 
   .recent_topics p {
-    width: 80%;
+    width: 70%;
   }
   .recent_topics a {
     float: left;
     margin-left: 20%;
-    width: 68%;
+    width: 58%;
   }
   .footer {
+    width:100%;
     height: auto;
   }
 }
