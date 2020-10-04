@@ -3,6 +3,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+html,
+body {
+  min-height: 100%;
+  position: relative;
+}
 body {
   font-family: sans-serif;
   font-size: 13px;
@@ -167,15 +172,13 @@ ul li {
   color: #39599f;
 }
 .follow_text2 {
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 .follow_text2 .fa-twitter {
   color: #45b0e3;
 }
-#x {
-  margin-right: 20%;
-}
+
 .follow_text3 .fa-youtube {
   color: #cc181e;
 }
@@ -187,16 +190,6 @@ ul li {
   float: left;
   position: relative;
 }
-/*
-.btn_watch {
-  position: absolute;
-  margin-top: 160px;
-  left: 55%;
-  background: #101010;
-  text-align: center;
-  color: white;
-  border-color: blue;
-}*/
 .btn_watch img {
   margin: 1px 0;
 }
@@ -325,13 +318,14 @@ ul li {
 
 .footer {
   background: black;
-  min-height: 100%;
+  width: 100%;
+  margin-top: 3%;
+  height: 680px;
 }
 .footer .ti {
   width: 100%;
-  margin-top: 3%;
+
   border-top: double red 10px;
-  min-height: 70%;
   padding-bottom: 35%;
 }
 .recent_topics {
@@ -371,7 +365,6 @@ ul li {
 .follow_us_inyoutube {
   margin-top: 10px;
   width: 20%;
-  height: 300px;
   float: left;
   margin-left: 2%;
 }
@@ -468,10 +461,41 @@ ul li {
   padding: 10px;
   text-indent: 50px;
 }
+@media only screen and (max-width: 2560px) {
+  .footer {
+    height: 100%;
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .footer {
+    height: 100%;
+    bottom: 0;
+  }
+}
 @media only screen and (max-width: 1366px) {
-  .copyright {
-    margin: 0;
-    height: 50px;
+  .footer {
+    height: 100%;
+    padding-bottom: 10%;
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 1365px) {
+  .footer {
+    padding-bottom: 0%;
+    bottom: 0;
+  }
+  .ti {
+    height: 60%;
+  }
+  .box_pagecover1,
+  .border,
+  .border img,
+  .followme {
+    width: 100%;
+  }
+  .followme {
+    text-align: right;
   }
 }
 @media only screen and (max-width: 1230px) {
@@ -485,17 +509,9 @@ ul li {
     width: 92%;
   }
 }
-
 @media only screen and (max-width: 1150px) {
-  html,
-  body,
-  .content {
-    width: 100%;
-    height: 100%;
-  }
-  .copyright {
-    height: 60px;
-    margin-top: 7%;
+  .follow_text2 {
+    margin: 0 15% 0 15%;
   }
   .container {
     width: 90%;
@@ -524,12 +540,20 @@ ul li {
     width: 50%;
   }
   .footer {
-    overflow: none;
+    height: 100%;
+    bottom: 0;
+  }
+  .ti {
+    height: 20%;
   }
   .rightcol {
     width: 60%;
   }
+  .copyright {
+    margin-top: 7%;
+  }
 }
+
 @media only screen and (max-width: 990px) {
   .content {
     display: flex;
@@ -562,7 +586,6 @@ ul li {
   .border,
   .followme {
     width: 100%;
-    margin: 0;
     border: none;
   }
   .box_pagecover1 {
@@ -628,10 +651,6 @@ ul li {
     padding: 0;
     width: 100%;
   }
-  .ti {
-    float: none;
-    margin-bottom: 8%;
-  }
   .vn1 {
     height: 60%;
     width: 100%;
@@ -656,7 +675,7 @@ ul li {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 812px) {
   .rightcol {
     float: none;
     margin-top: 6%;
@@ -666,13 +685,12 @@ ul li {
     margin-left: 2%;
     margin-right: 2%;
   }
-
   .footer {
-    overflow: none;
-    width: 100%;
+    height: 90%;
+    bottom: 0;
   }
-  .copyright {
-    margin-top: 16%;
+  .ti {
+    height: 60%;
   }
 
   .heading {
@@ -706,8 +724,10 @@ ul li {
   }
 }
 @media only screen and (max-width: 768px) {
-  .footer {
-    height: 1400px;
+  .follow_us_infacebook p {
+    margin-top: 19%;
+    width: 100%;
+    height: 10px;
   }
 }
 
@@ -740,9 +760,6 @@ ul li {
   }
   .follow_us_infacebook {
     padding-top: 30%;
-  }
-  .footer {
-    height: 850px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -782,13 +799,8 @@ ul li {
   .follow_us_infacebook {
     padding-top: 70%;
   }
-  .footer,
-  .ti {
-    height: 100%;
-  }
   .copyright {
-    width: 98%;
-    height: 130px;
+    padding-bottom: 24%;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -802,16 +814,6 @@ ul li {
     text-align: right;
     margin-bottom: 1%;
   }
-  .container {
-    margin: 0px;
-    padding: 0;
-    width: 100%;
-  }
-  body {
-    margin: 0px;
-    width: 100%;
-    height: 2000px;
-  }
   .follow_us_infacebook {
     width: 100%;
   }
@@ -819,99 +821,23 @@ ul li {
     width: 100%;
     margin-top: 80%;
   }
-  .copyright {
-    height: 120px;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .footer {
-    height: 100%;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .recent_topics p {
-    width: 80%;
-  }
-  .heading {
-    width: 100%;
-    height: auto;
-    width: 100%;
-
-    margin: 0;
-  }
-  .followme img {
-    width: 30px;
-  }
-  .followme {
-    padding: 30px;
-  }
-  .recent_topics a {
-    float: left;
-    width: 68%;
-  }
-
-  .box_pagecover2 {
-    width: 91%;
-    float: none;
-  }
-
-  .follow_us_inyoutube {
-    padding-top: 0%;
-  }
 }
 @media only screen and (max-width: 320px) {
-  #x {
-    margin-left: 20%;
-    margin-right: 23%;
-  }
-  .followme {
-    padding: 50px;
-  }
-  .followme img {
-    width: 18px;
-  }
-  .copyright {
-    width: 74%;
-    margin-top: 40%;
-    height: 250px;
-  }
-
-  .recent_topics p {
-    width: 50%;
-  }
-  .recent_topics a {
-    float: left;
-    margin-left: 20%;
-    width: 58%;
-  }
-  .footer {
-    width: 100%;
-    height: auto;
+  .follow_text2 {
+    margin: 0 10% 0 10%;
   }
 }
 @media only screen and (max-width: 290px) {
-  #x {
-    margin-left: 10%;
-    margin-right: 19%;
+  .follow_text2 {
+    margin: 0 5% 0 5%;
   }
   .followme img {
     width: 14px;
   }
-  .footer,
-  .ti {
-    width: 30%;
-  }
-  .recent_topics {
-    margin-right: 30%;
-  }
-  .follow_us_infacebook {
-    width: 62%;
-    margin-right: 90%;
-  }
   .box_pagecover2 {
     width: 100%;
   }
   .copyright {
-    width: 67%;
+    padding-bottom: 36%;
   }
 }
