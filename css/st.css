@@ -1,4 +1,43 @@
 
+ .menu{display:none;}
+ .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(65, 52, 52);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #f8f8f8;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
  #loader {
   background: #000;
   background: radial-gradient(#222, #000);
@@ -142,7 +181,6 @@ body {
   /* padding for text and margin for box and border change only type or color*/
   /*Be carefully during Arrangement (border type then color)*/
   /*when two box the sec1045px +10px not from top(it's top is the first bottom)*/
-
   border-top: solid;
   border-bottom: solid;
   border-top-color: #fc6c6c;
@@ -150,29 +188,59 @@ body {
   background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
   /* background: #F9F7F7;*/
 }
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 .s1 {
   /*for the first row*/
   /*الهوامش من الجهات الاربعه*/
   text-align: right;
-  padding-top: 4px;
   border-bottom: ridge;
 }
-.s2 {
+.s1 .fab,.s1 .fas{margin:8%;}
+.s2  {
   /*for the third row*/
   text-align: right;
   color: #ffffff;
-  padding: 5px 0;
-  margin: 30px 0px 0px 0px;
-  background: #6d6565;
+  height:50px;
+}
+.s2 li{  background:black;
 }
 /* for unordered list in row1* and row 3*/
-.u-1 {
-  list-style: none;
-}
-/* to r-bottom-width:n10*/
-.l {
-  display: inline-block;
-}
+
 @font-face {
   src: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/font/Amiri-Bold.ttf);
   font-family: joz;
@@ -537,7 +605,7 @@ ul li {
 .s {
   float: left;
 }
-.fab {
+.fab ,.s .fas,.s1 .fas,.s1 .fab{
   padding: 10px 0;
   font-size: 15px;
   margin-left: 5px;
@@ -674,6 +742,7 @@ ul li {
 }
 
 @media only screen and (max-width: 990px) {
+  .menu{display:inline-block}
 
   .content {
     display: flex;
@@ -852,6 +921,7 @@ ul li {
 }
 
 @media only screen and (max-width: 700px) {
+  
   .content {
     width: 100%;
     height: 100%;
@@ -859,7 +929,8 @@ ul li {
   .heading {
     width: 100%;
   }
-
+.s1{border:none;}
+.u-1 .l{display: none;}
   .copyright {
     margin-top: 10%;
   }
