@@ -1,13 +1,13 @@
 
 body{   
-background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png); /* when put it in index add ' '*/
+background-image: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/img/content.png); /* when put it in index add ' '*/
 }  
 #for{  
     border: ridge 2px;  
     width:550px;  
     height:600px;
     margin: 30px auto;  
-    background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/tech.jpg); 
+    background-image: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/img/tech.jpg); 
     padding: 25px;  
     color:white;
 }  
