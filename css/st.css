@@ -930,7 +930,6 @@ ul li {
     width: 100%;
   }
 .s1{border:none;}
-.u-1 .l{display: none;}
   .copyright {
     margin-top: 10%;
   }
@@ -960,6 +959,7 @@ ul li {
     max-width: 655px;
     margin: 0;
   }
+  .main{display: none;}
   .content {
     width: 100%;
     float: none;
