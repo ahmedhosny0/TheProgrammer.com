@@ -5,10 +5,10 @@ background-image: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/mast
 #for{  
     border: ridge 2px;  
     width:550px;  
-    height:600px;
+    height:100%;
     margin: 30px auto;  
     background-image: url(https://raw.githack.com/ahmedhosny0/TheProgrammer.com/master/img/tech.jpg); 
-    padding: 55px;  
+    padding: 20px;  
     color:white;
 }  
 #btn-submit{  
