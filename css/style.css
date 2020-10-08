@@ -1,13 +1,13 @@
 
 body{   
-background-image: url(../img/login.jpg); /* when put it in index add ' '*/
+background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/login.jpg); /* when put it in index add ' '*/
 }  
 #frm{  
     border: ridge 2px;  
     width:600px;  
     height:200px;
     margin: 180px auto;  
-    background-image: url(../img/tech.jpg); 
+    background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/tech.jpg); 
     padding: 35px;  
     color:white;
 }  
