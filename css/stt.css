@@ -177,17 +177,7 @@ body {
 .vn1 a {
   text-decoration: none;
 }
-.heading {
-  /* padding for text and margin for box and border change only type or color*/
-  /*Be carefully during Arrangement (border type then color)*/
-  /*when two box the sec1045px +10px not from top(it's top is the first bottom)*/
-  border-top: solid;
-  border-bottom: solid;
-  border-top-color: #fc6c6c;
-  border-bottom-color: #fc6c6c;
-  background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.png);
-  /* background: #F9F7F7;*/
-}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
