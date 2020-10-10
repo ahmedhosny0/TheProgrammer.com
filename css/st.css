@@ -330,6 +330,7 @@ ul li {
   float: right;
 } /* i use border ridge ,1px make height ��� �� ����� ���� �������*/
 .leftcol {
+ position:fixed;
   width: 31%;
   margin-left: 2%;
   float: left;
