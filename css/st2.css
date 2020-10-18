@@ -1018,8 +1018,7 @@ ul li {
   }
   .l{display:none;}
   .dropbtn{width:100px;padding:5px;font-size: 16px;font-weight: bold;}
-.box_pagecover2,.box_pagecover2 .pagecover{min-width:100px;}
-.box_pagecover2 .pageimg{width:20%;height:60px}
+
 }
 @media only screen and (max-width: 320px) {
   .follow_text2 {
