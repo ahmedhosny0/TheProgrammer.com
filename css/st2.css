@@ -1,4 +1,5 @@
-.menu{display:none;}
+
+ .menu{display:none;}
  .sidenav {
   height: 100%;
   width: 0;
@@ -11,6 +12,7 @@
   transition: 0.5s;
   padding-top: 60px;
 }
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -741,7 +743,7 @@ ul li {
 }
 
 @media only screen and (max-width: 990px) {
-  .menu,.home1{display:inline-block;margin-right:2%}
+  .menu{display:inline-block}
 
   .content {
     display: flex;
@@ -776,7 +778,9 @@ ul li {
     width: 100%;
     border: none;
   }
-  
+  .box_pagecover1 {
+    min-height: 370px;
+  }
   .border img,
   .box_pagecover1 .pagecover {
     width: 100%;
@@ -859,12 +863,9 @@ ul li {
     text-align: center;
     font-size: 20px;
   }
-  .vn1 img{min-height:120px;}
-
 }
 
 @media only screen and (max-width: 812px) {
- 
   .rightcol {
     float: none;
     margin-top: 6%;
@@ -921,7 +922,7 @@ ul li {
 }
 
 @media only screen and (max-width: 700px) {
-
+  
   .content {
     width: 100%;
     height: 100%;
@@ -993,7 +994,6 @@ ul li {
   .copyright {
     padding-bottom: 24%;
   }
-  
 }
 @media only screen and (max-width: 400px) {
   .heading {
