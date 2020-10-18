@@ -743,7 +743,7 @@ ul li {
 }
 
 @media only screen and (max-width: 990px) {
-  .menu{display:inline-block}
+  .menu,.home1{display:inline-block;margin-right:2%}
 
   .content {
     display: flex;
@@ -863,6 +863,8 @@ ul li {
     text-align: center;
     font-size: 20px;
   }
+   .vn1 img{min-height:120px;}
+
 }
 
 @media only screen and (max-width: 812px) {
