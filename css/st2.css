@@ -1,5 +1,7 @@
-.menu{display:none;}
- .sidenav {
+.menu {
+  display: none;
+}
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
@@ -33,10 +35,14 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
- #loader {
+#loader {
   background: #000;
   background: radial-gradient(#222, #000);
   bottom: 0;
@@ -46,9 +52,9 @@
   right: 0;
   top: 0;
   z-index: 99999;
-  }
+}
 
-  .loader-inner {
+.loader-inner {
   bottom: 0;
   height: 60px;
   left: 0;
@@ -57,12 +63,10 @@
   right: 0;
   top: 0;
   width: 100px;
-  }
+}
 
-  .loader-line-wrap {
-  animation:
-  spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
-  ;
+.loader-line-wrap {
+  animation: spin 2000ms cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
   box-sizing: border-box;
   height: 50px;
   left: 0;
@@ -71,8 +75,8 @@
   top: 0;
   transform-origin: 50% 100%;
   width: 100px;
-  }
-  .loader-line {
+}
+.loader-line {
   border: 4px solid transparent;
   border-radius: 100%;
   box-sizing: border-box;
@@ -83,69 +87,92 @@
   right: 0;
   top: 0;
   width: 100px;
-  }
-  .loader-line-wrap:nth-child(1) { animation-delay: -50ms; }
-  .loader-line-wrap:nth-child(2) { animation-delay: -100ms; }
-  .loader-line-wrap:nth-child(3) { animation-delay: -150ms; }
-  .loader-line-wrap:nth-child(4) { animation-delay: -200ms; }
-  .loader-line-wrap:nth-child(5) { animation-delay: -250ms; }
+}
+.loader-line-wrap:nth-child(1) {
+  animation-delay: -50ms;
+}
+.loader-line-wrap:nth-child(2) {
+  animation-delay: -100ms;
+}
+.loader-line-wrap:nth-child(3) {
+  animation-delay: -150ms;
+}
+.loader-line-wrap:nth-child(4) {
+  animation-delay: -200ms;
+}
+.loader-line-wrap:nth-child(5) {
+  animation-delay: -250ms;
+}
 
-  .loader-line-wrap:nth-child(1) .loader-line {
+.loader-line-wrap:nth-child(1) .loader-line {
   border-color: hsl(0, 80%, 60%);
   height: 90px;
   width: 90px;
   top: 7px;
-  }
-  .loader-line-wrap:nth-child(2) .loader-line {
+}
+.loader-line-wrap:nth-child(2) .loader-line {
   border-color: hsl(60, 80%, 60%);
   height: 76px;
   width: 76px;
   top: 14px;
-  }
-  .loader-line-wrap:nth-child(3) .loader-line {
+}
+.loader-line-wrap:nth-child(3) .loader-line {
   border-color: hsl(120, 80%, 60%);
   height: 62px;
   width: 62px;
   top: 21px;
-  }
-  .loader-line-wrap:nth-child(4) .loader-line {
+}
+.loader-line-wrap:nth-child(4) .loader-line {
   border-color: hsl(180, 80%, 60%);
   height: 48px;
   width: 48px;
   top: 28px;
-  }
-  .loader-line-wrap:nth-child(5) .loader-line {
+}
+.loader-line-wrap:nth-child(5) .loader-line {
   border-color: hsl(240, 80%, 60%);
   height: 34px;
   width: 34px;
   top: 35px;
-  }
+}
 
-  @keyframes spin {
-  0%, 15% {
-  transform: rotate(0);
+@keyframes spin {
+  0%,
+  15% {
+    transform: rotate(0);
   }
   100% {
-  transform: rotate(360deg);
+    transform: rotate(360deg);
   }
-  }
+}
 /* Add animation to "page content" */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 #myDiv {
@@ -177,7 +204,7 @@ body {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   cursor: pointer;
 }
@@ -202,7 +229,7 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -213,7 +240,9 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -228,14 +257,18 @@ body {
   text-align: right;
   border-bottom: ridge;
 }
-.s1 .fab,.s1 .fas{margin:8%;}
-.s2  {
+.s1 .fab,
+.s1 .fas {
+  margin: 8%;
+}
+.s2 {
   /*for the third row*/
   text-align: right;
   color: #ffffff;
-  height:50px;
+  height: 50px;
 }
-.s2 li{  background:black;
+.s2 li {
+  background: black;
 }
 /* for unordered list in row1* and row 3*/
 
@@ -248,6 +281,38 @@ body {
   font-family: laz;
 }
 /* for the name programmer*/
+.person_com {
+  border-bottom: ridge 2px;
+  direction: rtl;
+  text-align: right;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#person_com {
+  margin-top: 5%;
+}
+.person_com img {
+  width: 70px;
+  height: 70px;
+}
+.person_com .fas {
+  font-size: 70px;
+}
+.t_com {
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif ;
+  color: blue;
+  text-shadow: 2px 2px yellow;
+  transition: all 0.4s ease; /* disappear slowly*/
+}
+.t_com:hover {
+  color: yellow;
+}
+.person_com {
+  font-size: 17px;
+  font-weight: bold;
+}
 .name {
   text-align: center;
   color: red;
@@ -257,7 +322,7 @@ body {
 }
 .content {
   border: solid 1px;
-  min-height: 1900px;
+  height: 7400px;
   border-color: #ffffff;
   background-image: url(https://ahmed794387207.files.wordpress.com/2020/09/content.jpg);
   /*background: #000000;*/
@@ -328,7 +393,7 @@ ul li {
   float: right;
 } /* i use border ridge ,1px make height ��� �� ����� ���� �������*/
 .leftcol {
- position:fixed;
+  position: fixed;
   width: 31%;
   margin-left: 2%;
   float: left;
@@ -604,7 +669,10 @@ ul li {
 .s {
   float: left;
 }
-.fab ,.s .fas,.s1 .fas,.s1 .fab{
+.fab,
+.s .fas,
+.s1 .fas,
+.s1 .fab {
   padding: 10px 0;
   font-size: 15px;
   margin-left: 5px;
@@ -645,8 +713,13 @@ ul li {
   text-indent: 50px;
 }
 @media only screen and (max-width: 2560px) {
- #parg img{width:100%;height:95%;}
- .vn1 img{height:95%}
+  #parg img {
+    width: 100%;
+    height: 95%;
+  }
+  .vn1 img {
+    height: 95%;
+  }
 
   .footer {
     height: 100%;
@@ -741,7 +814,11 @@ ul li {
 }
 
 @media only screen and (max-width: 990px) {
-  .menu,.home1{display:inline-block;margin-right:2%}
+  .menu,
+  .home1 {
+    display: inline-block;
+    margin-right: 2%;
+  }
 
   .content {
     display: flex;
@@ -776,7 +853,7 @@ ul li {
     width: 100%;
     border: none;
   }
-  
+
   .border img,
   .box_pagecover1 .pagecover {
     width: 100%;
@@ -859,12 +936,12 @@ ul li {
     text-align: center;
     font-size: 20px;
   }
-  .vn1 img{min-height:120px;}
-
+  .vn1 img {
+    min-height: 120px;
+  }
 }
 
 @media only screen and (max-width: 812px) {
- 
   .rightcol {
     float: none;
     margin-top: 6%;
@@ -921,7 +998,6 @@ ul li {
 }
 
 @media only screen and (max-width: 700px) {
-
   .content {
     width: 100%;
     height: 100%;
@@ -929,7 +1005,9 @@ ul li {
   .heading {
     width: 100%;
   }
-.s1{border:none;}
+  .s1 {
+    border: none;
+  }
   .copyright {
     margin-top: 10%;
   }
@@ -959,7 +1037,9 @@ ul li {
     max-width: 655px;
     margin: 0;
   }
-  .main{display: none;}
+  .main {
+    display: none;
+  }
   .content {
     width: 100%;
     float: none;
@@ -993,7 +1073,6 @@ ul li {
   .copyright {
     padding-bottom: 24%;
   }
-  
 }
 @media only screen and (max-width: 400px) {
   .heading {
@@ -1016,9 +1095,15 @@ ul li {
   .copyright {
     padding-bottom: 27%;
   }
-  .l{display:none;}
-  .dropbtn{width:100px;padding:5px;font-size: 16px;font-weight: bold;}
-
+  .l {
+    display: none;
+  }
+  .dropbtn {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
 @media only screen and (max-width: 320px) {
   .follow_text2 {
@@ -1028,6 +1113,7 @@ ul li {
     padding-bottom: 30%;
   }
 }
+
 @media only screen and (max-width: 290px) {
   .follow_text2 {
     margin: 0 5% 0 5%;
@@ -1041,7 +1127,12 @@ ul li {
   .copyright {
     padding-bottom: 40%;
   }
-  .heading,.s1,s,.s2{min-width: 291px;}
+  .heading,
+  .s1,
+  s,
+  .s2 {
+    min-width: 291px;
+  }
 }
 @media only screen and (max-width: 250px) {
   .copyright {
